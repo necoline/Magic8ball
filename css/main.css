@@ -1,0 +1,24 @@
+img {
+  margin: auto;
+  height: 400px;
+}
+#userAnswer {
+  height: 68px;
+  width: 708px;
+  margin: auto;
+  text-align: center:
+  margin-top: 27;
+  background-color: #e0e0e0;
+  background-position: left top;
+  background-repeat: no-repeat;
+  color: #336699 ;
+  font-size: 20px;
+  padding-top: 14px;
+}
+#history {
+  background-color: #009688;
+  height: 200px;
+  width: 200px;
+  margin:auto;
+  text-align: center;
+}

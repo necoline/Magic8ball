@@ -1,0 +1,38 @@
+<!-- skeleton
+title
+instructions
+circle button
+text line
+history box -->
+
+<!DOCTYPE html>
+<html>
+<header>
+  <link rel="stylesheet" href="css/main.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+  <title>Magic 8 Ball</title>
+</header>
+<meta>
+</meta>
+<body>
+  <h1 class="center">Magic 8 Ball</h1>
+  <h3 class="center">Get sage advice from the Magic 8 Ball</h3>
+  <div class="container col s12 m8">
+    <div class="row center">
+    <input placeholder="ask your question" class="input-feild" id="input"></input>
+    <button onclick="response()"class="waves-effect waves-light btn">?</button>
+  </div>
+    <h3 id="userAnswer"class=" center col s6 m6"></h3>
+    <div>
+    <img src="images/magic8.png"/>
+    </div>
+    <div class="center">
+      <h3>History</h3>
+      <ul id="history">
+      </ul>
+    </div>
+  </div>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+</body>
+</html>
