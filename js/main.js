@@ -15,7 +15,7 @@ function response() {
 
   if (input !== "") {
     userAnswer.innerHTML = computerAnswer;
-    li.innerHTML = input.value + " \:" + computerAnswer;
+    li.innerHTML = input.value + " :" + computerAnswer;
     history.appendChild(li);
     document.getElementById("input").value = "";
   }
